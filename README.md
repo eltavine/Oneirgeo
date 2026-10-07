@@ -8,7 +8,7 @@ Oneirgeo is a Fabric mod that turns Minecraft into a vast, surreal dreamscape. I
 
 Dreamcore, weirdcore, liminal spaces, and psychological horror shape the experience. Explore, find your way between worlds, and remember what these places mean.
 
-The project is currently in development (`1.0-SNAPSHOT`).
+Current release: **1.0.0**. Downloads are available on the [GitHub Releases page](https://github.com/eltavine/Oneirgeo/releases).
 
 ## Six worlds
 
@@ -48,7 +48,7 @@ The current source configuration targets:
 | Java | `25` |
 
 1. Set up a Fabric instance for the target Minecraft version.
-2. Build the mod from source using the instructions below.
+2. Download the mod JAR from [GitHub Releases](https://github.com/eltavine/Oneirgeo/releases), or build it from source using the instructions below.
 3. Place the mod JAR and the matching Fabric API JAR in the instance's `mods` directory. Use the mod JAR, not the `-sources.jar`.
 4. Launch the game and create a **new world with the default world preset** to experience Oneirgeo's replacement world generation.
 

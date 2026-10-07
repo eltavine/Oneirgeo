@@ -8,7 +8,7 @@ Oneirgeo 是一个将 Minecraft 改造成巨大超现实梦境的 Fabric 模组�
 
 模组以梦核、怪核、阈限空间和心理恐怖为基调。探索这些世界，寻找穿行与醒来的路，想起它们对你意味着什么。
 
-项目目前处于开发阶段，版本为 `1.0-SNAPSHOT`。
+当前发布版本为 **1.0.0**，可在 [GitHub Releases](https://github.com/eltavine/Oneirgeo/releases) 下载。
 
 ## 六个世界
 
@@ -48,7 +48,7 @@ Oneirgeo 是一个将 Minecraft 改造成巨大超现实梦境的 Fabric 模组�
 | Java | `25` |
 
 1. 为目标 Minecraft 版本建立 Fabric 游戏实例。
-2. 按下方说明从源码构建模组。
+2. 在 [GitHub Releases](https://github.com/eltavine/Oneirgeo/releases) 下载模组 JAR，或按下方说明从源码构建。
 3. 将模组 JAR 和匹配版本的 Fabric API JAR 放入实例的 `mods` 目录。使用模组本体 JAR，勿使用 `-sources.jar`。
 4. 启动游戏，使用**默认世界预设创建新世界**，体验梦域替换后的世界生成。
 
