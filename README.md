@@ -32,6 +32,7 @@ Every Oneirgeo dimension spans **4,064 blocks vertically**, from Y = -2032 to Y 
 - **Unsettling encounters.** Faceless figures, stalkers, and mimics share these spaces with lifeguards and night nurses.
 - **Ways through the dream.** Mirror portals, hidden doors, elevators, and updrafts connect places and heights.
 - **Survival supplies.** Periodic deliveries provide items according to your dimension. The interval is configurable; trapped rooms interrupt automatic deliveries.
+- **Nothing left behind.** New worlds keep your inventory when you die, and the dream journal, VHS tapes, and other story items cannot be dropped or thrown away.
 - **Dreamlike presentation.** Custom ambience, reverb, distant silhouettes, altered skies, post-processing, and a camcorder-style view. Client settings let you adjust the effects.
 
 In-game text is available in **English and Simplified Chinese**.
@@ -122,7 +123,7 @@ These commands require game-master permissions, such as an operator account or c
 | `/oneirgeo supply` | Deliver supplies immediately. |
 | `/oneirgeo story` | Inspect story progress. |
 
-Game rules: `oneirgeo:lucidity` controls whether lucidity changes; `oneirgeo:supply_interval` sets automatic supply intervals in ticks (default `6000`, or five minutes at 20 ticks per second; `0` disables deliveries).
+Game rules: `oneirgeo:lucidity` controls whether lucidity changes; `oneirgeo:supply_interval` sets automatic supply intervals in ticks (default `6000`, or five minutes at 20 ticks per second; `0` disables deliveries). Oneirgeo also turns the vanilla `keep_inventory` rule on by default, so new worlds keep inventories through death; use `/gamerule keep_inventory false` to turn it off. Existing worlds keep their current setting.
 
 ## License
 

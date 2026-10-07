@@ -8,14 +8,13 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.level.Level;
 
 /** One of the father's tapes, labelled in his handwriting. Played on a television. */
-public class VhsTapeItem extends Item {
+public class VhsTapeItem extends BelongingItem {
     public VhsTapeItem(Properties properties) {
         super(properties);
     }

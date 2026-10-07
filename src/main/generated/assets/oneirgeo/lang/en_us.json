@@ -72,6 +72,7 @@
   "itemGroup.oneirgeo": "Oneirgeo",
   "oneirgeo.bed.hospital": "The sheets are cold. Someone was here a moment ago.",
   "oneirgeo.bed.no_sleep": "You cannot fall asleep here",
+  "oneirgeo.belonging.kept": "You cannot bring yourself to let go of it.",
   "oneirgeo.chair.waiting": "The seat is still warm.",
   "oneirgeo.clock.stopped": "It is 3:17. It is always 3:17.",
   "oneirgeo.config.summary": "effects %s, safe mode %s, intensity %s, screen text %s, far silhouettes %s, wrong sky %s, reverb %s, camcorder %s, shake %s",

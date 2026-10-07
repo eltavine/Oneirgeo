@@ -4,9 +4,12 @@
   "package": "com.eltavine.oneirgeo.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
+    "AbstractContainerMenuMixin",
     "ChunkMapMixin",
     "EntityGravityMixin",
     "EntityMixin",
+    "GameRulesMixin",
+    "InventoryMixin",
     "LevelChunkMixin",
     "LivingEntityGravityMixin",
     "PalettedContainerMixin",
