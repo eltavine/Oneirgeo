@@ -1,0 +1,7 @@
+{
+  "type": "oneirgeo:backrooms",
+  "generator": {
+    "type": "oneirgeo:layered",
+    "layout": "oneirgeo:backrooms"
+  }
+}

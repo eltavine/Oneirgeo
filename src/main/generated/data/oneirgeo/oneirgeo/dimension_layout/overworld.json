@@ -1,0 +1,19 @@
+{
+  "landmarks": "oneirgeo:overworld",
+  "layers": [
+    {
+      "max_y": 2031,
+      "min_y": -2032,
+      "name": "web",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:neural_fog",
+          "scene": "oneirgeo:neural_web"
+        }
+      ]
+    }
+  ],
+  "sea_level": 63,
+  "spawn_y": 65
+}

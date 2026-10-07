@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oneirgeo:block/stopped_clock",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oneirgeo:block/stopped_clock"
+    },
+    "facing=south": {
+      "model": "oneirgeo:block/stopped_clock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oneirgeo:block/stopped_clock",
+      "y": 270
+    }
+  }
+}

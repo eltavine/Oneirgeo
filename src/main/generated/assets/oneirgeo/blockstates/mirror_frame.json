@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oneirgeo:block/mirror_frame"
+    }
+  }
+}

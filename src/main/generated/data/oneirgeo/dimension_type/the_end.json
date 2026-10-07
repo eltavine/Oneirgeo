@@ -1,0 +1,59 @@
+{
+  "ambient_light": 0.25,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 20000,
+        "min_delay": 6000,
+        "sound": "oneirgeo:music.void"
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "error_message": {
+        "translate": "oneirgeo.bed.no_sleep"
+      }
+    },
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/sky_light_level": 4.0,
+    "minecraft:gameplay/straw_bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "error_message": {
+        "translate": "oneirgeo.bed.no_sleep"
+      }
+    },
+    "minecraft:visual/ambient_light_color": "#3f473f",
+    "minecraft:visual/cloud_color": "#00000000",
+    "minecraft:visual/fog_color": "#0d0b10",
+    "minecraft:visual/moon_angle": 20.0,
+    "minecraft:visual/moon_phase": "full_moon",
+    "minecraft:visual/sky_color": "#050407",
+    "minecraft:visual/sky_light_color": "#9a8eae",
+    "minecraft:visual/sky_light_factor": 0.2,
+    "minecraft:visual/star_brightness": 0.6,
+    "minecraft:visual/sun_angle": 180.0
+  },
+  "coordinate_scale": 1.0,
+  "default_clock": "minecraft:the_end",
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_fixed_time": true,
+  "has_skylight": true,
+  "height": 4064,
+  "infiniburn": "#minecraft:infiniburn_end",
+  "logical_height": 4064,
+  "min_y": -2032,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": 15,
+  "timelines": "oneirgeo:end_drift"
+}

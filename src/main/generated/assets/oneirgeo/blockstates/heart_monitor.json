@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oneirgeo:block/heart_monitor",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oneirgeo:block/heart_monitor"
+    },
+    "facing=south": {
+      "model": "oneirgeo:block/heart_monitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oneirgeo:block/heart_monitor",
+      "y": 270
+    }
+  }
+}

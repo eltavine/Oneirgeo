@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.eltavine.oneirgeo.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "CameraMixin",
+    "ChannelMixin",
+    "EntityTurnMixin",
+    "GameRendererMixin",
+    "HudMixin",
+    "KeyboardInputMixin",
+    "LibraryMixin",
+    "LivingEntityRendererMixin",
+    "LocalPlayerMixin",
+    "PostChainAccessor",
+    "PostPassAccessor",
+    "SkyRendererAccessor",
+    "SoundEngineMixin",
+    "SkyRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

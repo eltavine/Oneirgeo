@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "oneirgeo:block/fluorescent_light_off"
+    },
+    "lit=true": {
+      "model": "oneirgeo:block/fluorescent_light"
+    }
+  }
+}

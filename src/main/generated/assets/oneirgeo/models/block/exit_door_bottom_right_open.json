@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "oneirgeo:block/exit_door_bottom",
+    "top": "oneirgeo:block/exit_door_top"
+  }
+}

@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+._*
+
+# Gradle caches and build outputs
+.gradle/
+build/
+src/main/generated/.cache/
+
+# IDE files
+out/
+.idea/
+*.iml
+.idea_modules/
+.vscode/
+*.ipr
+*.iws
+
+# JVM crash logs and heap dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Local Minecraft instances (saves, logs, screenshots, and configuration)
+run/
+runServer/
+
+# Local environment overrides
+.env
+.env.*
+!.env.example

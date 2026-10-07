@@ -1,0 +1,21 @@
+{
+  "layers": [
+    {
+      "max_y": 2031,
+      "min_y": -2032,
+      "name": "offices",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:backrooms",
+          "scene": "oneirgeo:backrooms",
+          "variants": {
+            "closed": "oneirgeo:closed_room"
+          }
+        }
+      ]
+    }
+  ],
+  "sea_level": 0,
+  "spawn_y": 1
+}

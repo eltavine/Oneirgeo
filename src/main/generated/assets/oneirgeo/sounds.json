@@ -1,0 +1,621 @@
+{
+  "ambient.closed": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/heartbeat_1",
+        "pitch": 0.85,
+        "volume": 0.35
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_2",
+        "pitch": 0.85,
+        "volume": 0.35
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_3",
+        "pitch": 0.85,
+        "volume": 0.35
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_4",
+        "pitch": 0.85,
+        "volume": 0.35
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.closed"
+  },
+  "ambient.current": {
+    "sounds": [
+      {
+        "name": "minecraft:block/conduit/short1",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short2",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short3",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short4",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short5",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short6",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short7",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short8",
+        "pitch": 0.55,
+        "volume": 0.25
+      },
+      {
+        "name": "minecraft:block/conduit/short9",
+        "pitch": 0.55,
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.current"
+  },
+  "ambient.dusk": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/warped_forest/ambience",
+        "pitch": 0.52,
+        "stream": true,
+        "volume": 0.22
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.dusk"
+  },
+  "ambient.fog": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/ambience",
+        "pitch": 0.5,
+        "stream": true,
+        "volume": 0.24
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.fog"
+  },
+  "ambient.furnace": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/ambience",
+        "pitch": 0.5,
+        "stream": true,
+        "volume": 0.32
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.furnace"
+  },
+  "ambient.furnace.mood": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/mood1",
+        "pitch": 0.58,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/mood2",
+        "pitch": 0.58,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/mood3",
+        "pitch": 0.58,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/mood4",
+        "pitch": 0.58,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:ambient/nether/nether_wastes/mood5",
+        "pitch": 0.58,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.furnace.mood"
+  },
+  "ambient.high_wind": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/ambience",
+        "pitch": 1.1,
+        "stream": true,
+        "volume": 0.18
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.high_wind"
+  },
+  "ambient.hum": {
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/ambient",
+        "pitch": 0.5,
+        "volume": 0.22
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.hum"
+  },
+  "ambient.pool": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/underwater/underwater_ambience",
+        "stream": true,
+        "volume": 0.16
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.pool"
+  },
+  "ambient.pool.drip": {
+    "sounds": [
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water1",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water2",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water3",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water4",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water5",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water6",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water7",
+        "pitch": 0.66,
+        "volume": 0.5
+      },
+      {
+        "name": "minecraft:block/pointed_dripstone/drip_water8",
+        "pitch": 0.66,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.pool.drip"
+  },
+  "ambient.pulse": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/warden/heartbeat_1",
+        "pitch": 0.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_2",
+        "pitch": 0.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_3",
+        "pitch": 0.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:mob/warden/heartbeat_4",
+        "pitch": 0.55,
+        "volume": 0.45
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.pulse"
+  },
+  "ambient.rooms": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/basalt_deltas/ambience",
+        "pitch": 0.5,
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.rooms"
+  },
+  "ambient.rooms.mood": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave1",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave4",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave7",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave9",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave13",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave16",
+        "pitch": 0.54,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:ambient/cave/cave19",
+        "pitch": 0.54,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.rooms.mood"
+  },
+  "ambient.sea": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/underwater/underwater_ambience",
+        "pitch": 0.58,
+        "stream": true,
+        "volume": 0.22
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.sea"
+  },
+  "ambient.void": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/nether/soulsand_valley/ambience",
+        "pitch": 0.5,
+        "stream": true,
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.ambient.void"
+  },
+  "block.clock.tick": {
+    "sounds": [
+      {
+        "name": "minecraft:random/click",
+        "pitch": 0.55,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.block.clock.tick"
+  },
+  "block.monitor.beep": {
+    "sounds": [
+      {
+        "name": "minecraft:note/pling",
+        "pitch": 1.9,
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.block.monitor.beep"
+  },
+  "block.telephone.line": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/rain1",
+        "pitch": 1.7,
+        "volume": 0.35
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.block.telephone.line"
+  },
+  "block.telephone.ring": {
+    "sounds": [
+      {
+        "name": "minecraft:note/bell",
+        "pitch": 1.26,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.block.telephone.ring"
+  },
+  "block.television.on": {
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/activate",
+        "pitch": 1.9,
+        "volume": 0.35
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.block.television.on"
+  },
+  "entity.figure": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave4",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.entity.figure"
+  },
+  "entity.stalker": {
+    "sounds": [
+      {
+        "name": "minecraft:step/stone1",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:step/stone2",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:step/stone3",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:step/stone4",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:step/stone5",
+        "pitch": 0.7,
+        "volume": 0.6
+      },
+      {
+        "name": "minecraft:step/stone6",
+        "pitch": 0.7,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.entity.stalker"
+  },
+  "heal": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/resonate2",
+        "pitch": 0.5,
+        "volume": 0.25
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.heal"
+  },
+  "knock": {
+    "sounds": [
+      {
+        "name": "minecraft:dig/wood1",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood2",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood3",
+        "pitch": 0.6,
+        "volume": 0.9
+      },
+      {
+        "name": "minecraft:dig/wood4",
+        "pitch": 0.6,
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.knock"
+  },
+  "lights_out": {
+    "sounds": [
+      {
+        "name": "minecraft:block/beacon/deactivate",
+        "pitch": 0.6,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.lights_out"
+  },
+  "music.deep": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/ancestry",
+        "pitch": 0.68,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/game/deeper",
+        "pitch": 0.68,
+        "stream": true,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.music.deep"
+  },
+  "music.dream": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "pitch": 0.74,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/game/comforting_memories",
+        "pitch": 0.74,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "pitch": 0.72,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/game/komorebi",
+        "pitch": 0.74,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/menu/beginning_2",
+        "pitch": 0.72,
+        "stream": true,
+        "volume": 0.7
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.music.dream"
+  },
+  "music.furnace": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/concrete_halls",
+        "pitch": 0.7,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:music/game/nether/dead_voxel",
+        "pitch": 0.7,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:records/13",
+        "pitch": 0.77,
+        "stream": true,
+        "volume": 0.55
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.music.furnace"
+  },
+  "music.void": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/end/the_end",
+        "pitch": 0.63,
+        "stream": true,
+        "volume": 0.7
+      },
+      {
+        "name": "minecraft:records/11",
+        "pitch": 0.59,
+        "stream": true,
+        "volume": 0.45
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.music.void"
+  },
+  "passage": {
+    "sounds": [
+      {
+        "name": "minecraft:block/wooden_door/open1",
+        "pitch": 0.55,
+        "volume": 0.8
+      },
+      {
+        "name": "minecraft:block/wooden_door/open2",
+        "pitch": 0.5,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.passage"
+  },
+  "supply": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/shimmer",
+        "pitch": 0.6,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.supply"
+  },
+  "tape.static": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/weather/rain1",
+        "pitch": 1.9,
+        "volume": 0.45
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.tape.static"
+  },
+  "wake": {
+    "sounds": [
+      {
+        "name": "minecraft:block/amethyst/resonate1",
+        "pitch": 0.7,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.wake"
+  },
+  "whisper": {
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave2",
+        "pitch": 1.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:ambient/cave/cave6",
+        "pitch": 1.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:ambient/cave/cave11",
+        "pitch": 1.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:ambient/cave/cave13",
+        "pitch": 1.55,
+        "volume": 0.45
+      },
+      {
+        "name": "minecraft:ambient/cave/cave17",
+        "pitch": 1.55,
+        "volume": 0.45
+      }
+    ],
+    "subtitle": "subtitles.oneirgeo.whisper"
+  }
+}

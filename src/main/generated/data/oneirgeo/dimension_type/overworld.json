@@ -1,0 +1,52 @@
+{
+  "ambient_light": 0.04,
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 22000,
+        "min_delay": 9000,
+        "sound": "oneirgeo:music.deep"
+      }
+    },
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "always"
+    },
+    "minecraft:gameplay/can_pillager_patrol_spawn": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/monsters_burn": false,
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:gameplay/sky_light_level": 5.0,
+    "minecraft:gameplay/straw_bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "always"
+    },
+    "minecraft:visual/ambient_light_color": "#0a0a09",
+    "minecraft:visual/cloud_color": "#00000000",
+    "minecraft:visual/fog_color": "#2b2826",
+    "minecraft:visual/moon_angle": 180.0,
+    "minecraft:visual/sky_color": "#242120",
+    "minecraft:visual/sky_light_color": "#a8988e",
+    "minecraft:visual/sky_light_factor": 0.4,
+    "minecraft:visual/star_brightness": 0.0,
+    "minecraft:visual/sun_angle": 180.0,
+    "minecraft:visual/sunrise_sunset_color": "#00000000"
+  },
+  "coordinate_scale": 1.0,
+  "default_clock": "minecraft:overworld",
+  "has_ceiling": false,
+  "has_ender_dragon_fight": false,
+  "has_fixed_time": true,
+  "has_skylight": true,
+  "height": 4064,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 4064,
+  "min_y": -2032,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 0
+  }
+}

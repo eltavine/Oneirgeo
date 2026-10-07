@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "oneirgeo:block/backrooms_door_bottom",
+    "top": "oneirgeo:block/backrooms_door_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "oneirgeo:block/wake_door_bottom",
+    "top": "oneirgeo:block/wake_door_top"
+  }
+}

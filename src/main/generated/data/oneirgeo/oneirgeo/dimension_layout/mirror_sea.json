@@ -1,0 +1,19 @@
+{
+  "landmarks": "oneirgeo:mirror_sea",
+  "layers": [
+    {
+      "max_y": 2031,
+      "min_y": -2032,
+      "name": "mirror",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:mirror_sea",
+          "scene": "oneirgeo:mirror_sea"
+        }
+      ]
+    }
+  ],
+  "sea_level": 0,
+  "spawn_y": 1
+}

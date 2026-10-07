@@ -1,0 +1,37 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "oneirgeo:ambient.sea"
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "count": 1,
+              "weight": 1
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/fog_color": "#040405",
+    "minecraft:visual/fog_end_distance": 320.0,
+    "minecraft:visual/fog_start_distance": 20.0,
+    "minecraft:visual/water_fog_color": "#020204",
+    "minecraft:visual/water_fog_end_distance": 18.0
+  },
+  "carvers": [],
+  "downfall": 0.4,
+  "effects": {
+    "foliage_color": "#7e7e90",
+    "grass_color": "#8e8ea0",
+    "water_color": "#0b0b12"
+  },
+  "features": [],
+  "has_precipitation": false,
+  "temperature": 0.7
+}

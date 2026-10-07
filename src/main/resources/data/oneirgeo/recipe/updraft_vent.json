@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:iron_bars",
+    "F": "minecraft:feather",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "BIB",
+    "IFI",
+    "BIB"
+  ],
+  "result": {
+    "count": 2,
+    "id": "oneirgeo:updraft_vent"
+  }
+}

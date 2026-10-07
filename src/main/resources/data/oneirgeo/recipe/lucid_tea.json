@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:sugar",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "id": "oneirgeo:lucid_tea"
+  }
+}

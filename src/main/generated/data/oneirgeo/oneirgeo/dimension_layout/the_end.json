@@ -1,0 +1,43 @@
+{
+  "landmarks": "oneirgeo:end",
+  "layers": [
+    {
+      "max_y": -401,
+      "min_y": -2032,
+      "name": "sea",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:night_sea",
+          "scene": "oneirgeo:night_sea"
+        }
+      ]
+    },
+    {
+      "max_y": 799,
+      "min_y": -400,
+      "name": "cemetery",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:star_cemetery",
+          "scene": "oneirgeo:star_cemetery"
+        }
+      ]
+    },
+    {
+      "max_y": 2031,
+      "min_y": 800,
+      "name": "geometry",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:void_geometry",
+          "scene": "oneirgeo:void_geometry"
+        }
+      ]
+    }
+  ],
+  "sea_level": -1000,
+  "spawn_y": 49
+}

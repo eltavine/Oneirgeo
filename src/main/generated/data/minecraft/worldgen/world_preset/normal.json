@@ -1,0 +1,25 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "oneirgeo:overworld",
+      "generator": {
+        "type": "oneirgeo:layered",
+        "layout": "oneirgeo:overworld"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "oneirgeo:the_end",
+      "generator": {
+        "type": "oneirgeo:layered",
+        "layout": "oneirgeo:the_end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "oneirgeo:the_nether",
+      "generator": {
+        "type": "oneirgeo:layered",
+        "layout": "oneirgeo:the_nether"
+      }
+    }
+  }
+}

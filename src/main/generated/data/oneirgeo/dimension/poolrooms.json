@@ -1,0 +1,7 @@
+{
+  "type": "oneirgeo:poolrooms",
+  "generator": {
+    "type": "oneirgeo:layered",
+    "layout": "oneirgeo:poolrooms"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "oneirgeo:monolith_stone",
+    "oneirgeo:temple_marble",
+    "oneirgeo:faded_plaster",
+    "oneirgeo:pool_tile",
+    "oneirgeo:pool_tile_blue",
+    "oneirgeo:cold_lava",
+    "oneirgeo:boiler_plate",
+    "oneirgeo:ember",
+    "oneirgeo:star_stone",
+    "oneirgeo:grave_stone",
+    "oneirgeo:night_plaster",
+    "oneirgeo:updraft_vent",
+    "oneirgeo:mirror_surface",
+    "oneirgeo:pool_light",
+    "oneirgeo:fluorescent_light",
+    "oneirgeo:mirror_frame"
+  ]
+}

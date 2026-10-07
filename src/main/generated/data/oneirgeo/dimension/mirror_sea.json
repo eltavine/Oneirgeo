@@ -1,0 +1,7 @@
+{
+  "type": "oneirgeo:mirror_sea",
+  "generator": {
+    "type": "oneirgeo:layered",
+    "layout": "oneirgeo:mirror_sea"
+  }
+}

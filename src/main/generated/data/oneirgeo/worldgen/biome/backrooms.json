@@ -1,0 +1,35 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "loop": "oneirgeo:ambient.hum",
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "oneirgeo:ambient.rooms.mood",
+        "tick_delay": 3600
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/fog_color": "#6e6233",
+    "minecraft:visual/fog_end_distance": 64.0,
+    "minecraft:visual/fog_start_distance": 2.0,
+    "minecraft:visual/water_fog_color": "#050533",
+    "minecraft:visual/water_fog_end_distance": 32.0
+  },
+  "carvers": [],
+  "downfall": 0.4,
+  "effects": {
+    "foliage_color": "#908a50",
+    "grass_color": "#a09a60",
+    "water_color": "#3f76e4"
+  },
+  "features": [],
+  "has_precipitation": false,
+  "temperature": 0.7
+}

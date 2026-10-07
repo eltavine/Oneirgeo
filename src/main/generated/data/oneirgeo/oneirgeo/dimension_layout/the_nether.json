@@ -1,0 +1,63 @@
+{
+  "landmarks": "oneirgeo:nether",
+  "layers": [
+    {
+      "max_y": -1301,
+      "min_y": -2032,
+      "name": "depths",
+      "scenes": [
+        {
+          "biome": "oneirgeo:boiler_corridors",
+          "scene": "oneirgeo:boiler_corridors",
+          "variants": {
+            "closed": "oneirgeo:closed_room"
+          }
+        }
+      ]
+    },
+    {
+      "max_y": -601,
+      "min_y": -1300,
+      "name": "furnace",
+      "origin_scene": "oneirgeo:ash_plains",
+      "region_size": 560,
+      "scenes": [
+        {
+          "biome": "oneirgeo:ash_plains",
+          "scene": "oneirgeo:ash_plains",
+          "weight": 3
+        },
+        {
+          "biome": "oneirgeo:lava_sea",
+          "scene": "oneirgeo:lava_sea"
+        }
+      ]
+    },
+    {
+      "max_y": 1399,
+      "min_y": -600,
+      "name": "hearth",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:great_hearth",
+          "scene": "oneirgeo:great_hearth"
+        }
+      ]
+    },
+    {
+      "max_y": 2031,
+      "min_y": 1400,
+      "name": "city",
+      "region_size": 1024,
+      "scenes": [
+        {
+          "biome": "oneirgeo:hanging_city",
+          "scene": "oneirgeo:hanging_city"
+        }
+      ]
+    }
+  ],
+  "sea_level": -1214,
+  "spawn_y": -1209
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "oneirgeo",
+  "version": "${version}",
+  "name": "Oneirgeo",
+  "description": "Turns the overworld, the nether and the end into vast abstract dreamscapes 4064 blocks tall, and adds three more: the Mirror Sea, the Poolrooms and the Backrooms. Dreamcore, weirdcore and surreal; often non-Euclidean.",
+  "authors": [
+    "eltavine"
+  ],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/oneirgeo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.eltavine.oneirgeo.client.OneirgeoDataGenerator"
+    ],
+    "client": [
+      "com.eltavine.oneirgeo.client.OneirgeoClient"
+    ],
+    "main": [
+      "com.eltavine.oneirgeo.Oneirgeo"
+    ],
+    "fabric-client-gametest": [
+      "com.eltavine.oneirgeo.client.dev.OneirgeoClientGameTest"
+    ]
+  },
+  "mixins": [
+    "oneirgeo.mixins.json",
+    {
+      "config": "oneirgeo.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

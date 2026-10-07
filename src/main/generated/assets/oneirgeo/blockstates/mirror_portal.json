@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "oneirgeo:block/mirror_portal_ns"
+    },
+    "axis=z": {
+      "model": "oneirgeo:block/mirror_portal_ew"
+    }
+  }
+}

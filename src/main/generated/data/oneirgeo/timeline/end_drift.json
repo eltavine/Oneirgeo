@@ -1,0 +1,30 @@
+{
+  "clock": "minecraft:the_end",
+  "period_ticks": 24000,
+  "tracks": {
+    "minecraft:visual/moon_angle": {
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": 380.0
+        },
+        {
+          "ticks": 0,
+          "value": 20.0
+        }
+      ]
+    },
+    "minecraft:visual/star_angle": {
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": 360.0
+        },
+        {
+          "ticks": 0,
+          "value": 0.0
+        }
+      ]
+    }
+  }
+}

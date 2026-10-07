@@ -1,0 +1,74 @@
+{
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "additions": [
+        {
+          "sound": "oneirgeo:ambient.pulse",
+          "tick_chance": 0.0016
+        },
+        {
+          "sound": "oneirgeo:ambient.current",
+          "tick_chance": 7.0E-4
+        },
+        {
+          "sound": "oneirgeo:whisper",
+          "tick_chance": 5.0E-4
+        }
+      ],
+      "loop": "oneirgeo:ambient.fog"
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {
+          "minecraft:spider": {
+            "charge": 0.8,
+            "energy_budget": 0.1
+          },
+          "minecraft:zombie": {
+            "charge": 0.8,
+            "energy_budget": 0.1
+          }
+        },
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "minecraft:zombie",
+              "count": 1,
+              "weight": 3
+            },
+            {
+              "type": "minecraft:spider",
+              "count": 1,
+              "weight": 2
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.0016
+      }
+    ],
+    "minecraft:visual/fog_color": "#2b2826",
+    "minecraft:visual/fog_end_distance": 74.0,
+    "minecraft:visual/fog_start_distance": 4.0,
+    "minecraft:visual/sky_color": "#242120",
+    "minecraft:visual/water_fog_color": "#0c0808",
+    "minecraft:visual/water_fog_end_distance": 20.0
+  },
+  "carvers": [],
+  "downfall": 0.4,
+  "effects": {
+    "foliage_color": "#55514a",
+    "grass_color": "#5e5a50",
+    "water_color": "#2c2222"
+  },
+  "features": [],
+  "has_precipitation": false,
+  "temperature": 0.7
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "oneirgeo:block/telescope",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "oneirgeo:block/telescope"
+    },
+    "facing=south": {
+      "model": "oneirgeo:block/telescope",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "oneirgeo:block/telescope",
+      "y": 270
+    }
+  }
+}
