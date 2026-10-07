@@ -122,7 +122,7 @@ cd Oneirgeo
 | `/oneirgeo supply` | 立即发放物资。 |
 | `/oneirgeo story` | 查看剧情进度。 |
 
-游戏规则：`oneirgeo:lucidity` 控制清醒度是否变化；`oneirgeo:supply_interval` 设置自动补给间隔，单位为游戏刻，默认 `6000`（每秒 20 刻时为五分钟），设为 `0` 可关闭补给。
+游戏规则：`oneirgeo:lucidity` 控制清醒度是否变化；`oneirgeo:supply_interval` 设置自动补给间隔，单位为游戏刻，默认 `6000`（每秒 20 刻时为五分钟），设为 `0` 可关闭补给。梦域还会默认开启原版规则 `keep_inventory`，新世界中死亡不会掉落物品；可用 `/gamerule keep_inventory false` 关闭。已有世界保持原有设置。
 
 ## 许可
 

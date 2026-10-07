@@ -122,7 +122,7 @@ These commands require game-master permissions, such as an operator account or c
 | `/oneirgeo supply` | Deliver supplies immediately. |
 | `/oneirgeo story` | Inspect story progress. |
 
-Game rules: `oneirgeo:lucidity` controls whether lucidity changes; `oneirgeo:supply_interval` sets automatic supply intervals in ticks (default `6000`, or five minutes at 20 ticks per second; `0` disables deliveries).
+Game rules: `oneirgeo:lucidity` controls whether lucidity changes; `oneirgeo:supply_interval` sets automatic supply intervals in ticks (default `6000`, or five minutes at 20 ticks per second; `0` disables deliveries). Oneirgeo also turns the vanilla `keep_inventory` rule on by default, so new worlds keep inventories through death; use `/gamerule keep_inventory false` to turn it off. Existing worlds keep their current setting.
 
 ## License
 
