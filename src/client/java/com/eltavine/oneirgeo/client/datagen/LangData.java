@@ -114,6 +114,7 @@ final class LangData {
         put("oneirgeo.story.all", "You remember everything. The stairs under the house go further down now.", "你全都想起来了。房子下面的楼梯，现在能走得更深了。");
         put("oneirgeo.story.final", "The room where the clocks stopped. The light is still on.", "钟停下的房间。灯还亮着。");
         put("oneirgeo.tape.no_player", "There is nothing here to play it on.", "这里没有能放它的东西。");
+        put("oneirgeo.belonging.kept", "You cannot bring yourself to let go of it.", "你舍不得把它丢下。");
         String[][] chapters = {
                 {"house", "The House", "家"},
                 {"fever", "The Fever", "高烧"},

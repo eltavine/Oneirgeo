@@ -32,6 +32,7 @@ Every Oneirgeo dimension spans **4,064 blocks vertically**, from Y = -2032 to Y 
 - **Unsettling encounters.** Faceless figures, stalkers, and mimics share these spaces with lifeguards and night nurses.
 - **Ways through the dream.** Mirror portals, hidden doors, elevators, and updrafts connect places and heights.
 - **Survival supplies.** Periodic deliveries provide items according to your dimension. The interval is configurable; trapped rooms interrupt automatic deliveries.
+- **Nothing left behind.** New worlds keep your inventory when you die, and the dream journal, VHS tapes, and other story items cannot be dropped or thrown away.
 - **Dreamlike presentation.** Custom ambience, reverb, distant silhouettes, altered skies, post-processing, and a camcorder-style view. Client settings let you adjust the effects.
 
 In-game text is available in **English and Simplified Chinese**.

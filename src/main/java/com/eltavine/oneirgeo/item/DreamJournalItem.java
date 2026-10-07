@@ -3,11 +3,10 @@ package com.eltavine.oneirgeo.item;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 
 /** The notebook everyone wakes up with; it keeps every memory that came back, chapter by chapter. */
-public class DreamJournalItem extends Item {
+public class DreamJournalItem extends BelongingItem {
     /** Opens the journal on the client; set by the client initializer. */
     public static Runnable opener = () -> {
     };

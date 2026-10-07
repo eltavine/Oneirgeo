@@ -734,6 +734,33 @@ public final class SelfTest {
                 com.eltavine.oneirgeo.world.Mysteries.happen(fake, com.eltavine.oneirgeo.world.Mysteries.Kind.GLITCH));
     }
 
+    /**
+     * A new world keeps inventories through death, and a fake player cannot let go of the journal:
+     * not with the drop key, not thrown from the inventory screen, not clicked out of it, and a tape
+     * does not fit in a bundle. A memory fragment still leaves the hand.
+     */
+    private static void checkBelongings(MinecraftServer server) {
+        net.fabricmc.fabric.api.entity.FakePlayer fake = net.fabricmc.fabric.api.entity.FakePlayer.get(server.overworld());
+        net.minecraft.world.entity.player.Inventory inventory = fake.getInventory();
+        inventory.clearContent();
+        inventory.setSelectedSlot(0);
+        inventory.setItem(0, new net.minecraft.world.item.ItemStack(com.eltavine.oneirgeo.registry.OneirgeoItems.DREAM_JOURNAL));
+        fake.drop(true);
+        boolean hand = inventory.getItem(0).is(com.eltavine.oneirgeo.registry.OneirgeoItems.DREAM_JOURNAL);
+        fake.inventoryMenu.clicked(net.minecraft.world.inventory.InventoryMenu.USE_ROW_SLOT_START, 1, net.minecraft.world.inventory.ContainerInput.THROW, fake);
+        boolean thrown = inventory.getItem(0).is(com.eltavine.oneirgeo.registry.OneirgeoItems.DREAM_JOURNAL);
+        fake.inventoryMenu.setCarried(inventory.removeItemNoUpdate(0));
+        fake.inventoryMenu.clicked(net.minecraft.world.inventory.AbstractContainerMenu.SLOT_CLICKED_OUTSIDE, 0, net.minecraft.world.inventory.ContainerInput.PICKUP, fake);
+        boolean outside = fake.inventoryMenu.getCarried().is(com.eltavine.oneirgeo.registry.OneirgeoItems.DREAM_JOURNAL);
+        fake.inventoryMenu.setCarried(net.minecraft.world.item.ItemStack.EMPTY);
+        boolean bundle = net.minecraft.world.item.component.BundleContents.canItemBeInBundle(
+                new net.minecraft.world.item.ItemStack(com.eltavine.oneirgeo.registry.OneirgeoItems.VHS_TAPE));
+        inventory.setItem(0, new net.minecraft.world.item.ItemStack(com.eltavine.oneirgeo.registry.OneirgeoItems.MEMORY_FRAGMENT));
+        boolean fragment = !inventory.removeFromSelected(false).isEmpty();
+        Oneirgeo.LOGGER.info("[selftest] belongings: keep_inventory {}; the journal stays when dropped from the hand {}, thrown from the inventory {}, clicked outside it {}; a tape fits in a bundle {}; a memory fragment leaves the hand {}",
+                server.getGameRules().get(net.minecraft.world.level.gamerules.GameRules.KEEP_INVENTORY), hand, thrown, outside, bundle, fragment);
+    }
+
     private static void run(MinecraftServer server) {
         int radius = Integer.getInteger("oneirgeo.selftest.radius", 3);
         try {
@@ -795,6 +822,7 @@ public final class SelfTest {
             checkContent(server);
             checkStory(server);
             checkMechanics(server);
+            checkBelongings(server);
             Oneirgeo.LOGGER.info("[selftest] neural cache for 5 x 5 chunks: {}",
                     com.eltavine.oneirgeo.world.gen.scene.neural.NeuralWebScene.measure(server.overworld().getSeed()));
             Runtime runtime = Runtime.getRuntime();

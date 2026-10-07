@@ -72,6 +72,7 @@
   "itemGroup.oneirgeo": "梦域",
   "oneirgeo.bed.hospital": "床单是凉的。刚才还有人在这里。",
   "oneirgeo.bed.no_sleep": "你在这里睡不着",
+  "oneirgeo.belonging.kept": "你舍不得把它丢下。",
   "oneirgeo.chair.waiting": "椅子上还有余温。",
   "oneirgeo.clock.stopped": "三点十七分。永远是三点十七分。",
   "oneirgeo.config.summary": "画面效果 %s，光敏安全模式 %s，强度 %s，屏幕文字 %s，远景剪影 %s，错误的天空 %s，混响 %s，录像机 %s，晃动 %s",
