@@ -8,7 +8,7 @@ Oneirgeo is a Fabric mod that turns Minecraft into a vast, surreal dreamscape. I
 
 Dreamcore, weirdcore, liminal spaces, and psychological horror shape the experience. Explore, find your way between worlds, and remember what these places mean.
 
-Current release: **1.0.0**. Downloads are available on the [GitHub Releases page](https://github.com/eltavine/Oneirgeo/releases).
+Current prerelease: **1.0.0**. Downloads are available on the [GitHub Releases page](https://github.com/eltavine/Oneirgeo/releases).
 
 ## Six worlds
 
