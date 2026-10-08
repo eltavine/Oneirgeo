@@ -8,7 +8,7 @@ Oneirgeo 是一个将 Minecraft 改造成巨大超现实梦境的 Fabric 模组�
 
 模组以梦核、怪核、阈限空间和心理恐怖为基调。探索这些世界，寻找穿行与醒来的路，想起它们对你意味着什么。
 
-当前预发布版本为 **1.0.0**，可在 [GitHub Releases](https://github.com/eltavine/Oneirgeo/releases) 下载。
+当前预发布版本为 **1.0.1**，可在 [GitHub Releases](https://github.com/eltavine/Oneirgeo/releases) 下载。
 
 ## 六个世界
 
